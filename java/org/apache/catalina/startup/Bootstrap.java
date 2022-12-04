@@ -433,6 +433,8 @@ public final class Bootstrap {
      * Main method and entry point when starting Tomcat via the provided
      * scripts.
      *
+     * Tomcat 启动入口
+     *
      * @param args Command line arguments to be processed
      */
     public static void main(String args[]) {

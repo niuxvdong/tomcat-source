@@ -308,9 +308,9 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
             } else if(opt.equals("14")) {
                 settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_14);
             } else if(opt.equals("15")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_15);
+                settings.put(CompilerOptions.OPTION_Source, "15");
             } else if(opt.equals("16")) {
-                settings.put(CompilerOptions.OPTION_Source, CompilerOptions.VERSION_16);
+                settings.put(CompilerOptions.OPTION_Source, "16");
             } else if(opt.equals("17")) {
                 // Constant not available in latest ECJ version that runs on
                 // Java 8.
@@ -384,11 +384,11 @@ public class JDTCompiler extends org.apache.jasper.compiler.Compiler {
                 settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_14);
                 settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_14);
             } else if(opt.equals("15")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_15);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_15);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, "15");
+                settings.put(CompilerOptions.OPTION_Compliance, "15");
             } else if(opt.equals("16")) {
-                settings.put(CompilerOptions.OPTION_TargetPlatform, CompilerOptions.VERSION_16);
-                settings.put(CompilerOptions.OPTION_Compliance, CompilerOptions.VERSION_16);
+                settings.put(CompilerOptions.OPTION_TargetPlatform, "16");
+                settings.put(CompilerOptions.OPTION_Compliance, "16");
             } else if(opt.equals("17")) {
                 // Constant not available in latest ECJ version that runs on
                 // Java 8.
